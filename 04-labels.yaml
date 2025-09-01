@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: labels
+ labels: 
+   project: roboshop
+   environment: dev
+   component: mysql
+   type: backend
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    
