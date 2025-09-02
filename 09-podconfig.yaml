@@ -8,8 +8,7 @@ metadata:
 spec:
   containers: 
   - name: nginx
-    image: ngxin:latest
+    image: nginx:latest
     envFrom:
     - configMapRef:
         name: pod-config
-        
