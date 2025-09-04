@@ -21,6 +21,7 @@ metadata:
  name: service-demo-pod-lb
  labels: 
    purpose: demo-lb 
+   project: roboshop
 spec:
  containers:
  - name: nginx
