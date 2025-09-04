@@ -6,7 +6,7 @@ metadata:
     project: demo 
     env: dev
 spec:
-  selectors:
+  selector:
      purpose: demo
      project: roboshop
   ports:
