@@ -6,7 +6,7 @@ metadata:
     project: demo 
     env: dev
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
      purpose: demo-lb
      project: roboshop
