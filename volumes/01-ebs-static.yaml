@@ -36,10 +36,10 @@ spec:
    - name: nginx
      image: nginx
      volumeMounts:
-     - name: persistent Storage
+     - name: persistent-Storage
        mountPath: /usr/share/nginx/html
   volumes:
-    - name: persistent storage
+    - name: persistent-storage
       persistentVolumeClaim:
        claimName: ebs-static
   
